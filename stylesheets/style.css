@@ -835,13 +835,13 @@ ul.shortcode-list i {
 .button {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
-  background: #F9CE06;
-  border: 2px solid #F9CE06;
+  color: #F2E5D2;
+  background: #F57363;
+  border: 2px solid #F2E5D2;
 }
 
 .button:hover {
-  background-color: rgba(249, 206, 6, 0.8);
+  background-color: #fb9083;
 }
 
 .button.boxed {
@@ -865,6 +865,7 @@ ul.shortcode-list i {
 }
 
 .contain-to-grid {
+  background-color: #022648;
   -moz-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
@@ -919,12 +920,15 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar {
+  background-color: #022648;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #022648;
+  color: #F2E5D2;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1528,6 +1532,7 @@ body.screenshot {
 }
 .modBlogPost .tags a {
   font-style: italic;
+  color: #4A7DBE;
 }
 .modBlogPost img {
   width: 100%;
@@ -3095,7 +3100,7 @@ body.screenshot {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #F9CE06;
+  color: #F57363;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
@@ -3324,7 +3329,7 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #F9CE06;
+  background: #F57363;
   display: block;
 }
 
@@ -3889,6 +3894,7 @@ body {
   }
   .contain-to-grid.alt .top-bar-section .has-dropdown > a:after {
     border-top-color: transparent;
+
   }
 
   .contain-to-grid.shadowless .top-bar-section li:not(.has-form) a:not(.button):hover, .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button) {
@@ -3948,6 +3954,7 @@ body {
   }
   .contain-to-grid.transparent.white .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
     background-color: rgba(0, 0, 0, 0.9);
+
   }
   .contain-to-grid.transparent.white .top-bar .toggle-topbar.menu-icon a {
     color: #fff;
