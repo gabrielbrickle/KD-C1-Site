@@ -781,6 +781,7 @@ ul.shortcode-list i {
 }
 
 .fadeinleft {
+  border-radius: 50%;
   -moz-transform: translateX(-40px);
   -ms-transform: translateX(-40px);
   -webkit-transform: translateX(-40px);
