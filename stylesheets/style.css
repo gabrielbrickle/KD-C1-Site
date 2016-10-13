@@ -837,9 +837,9 @@ ul.shortcode-list i {
 .button {
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #F2E5D2;
-  background: #F57363;
-  border: 2px solid #F2E5D2;
+  color: #fff;
+  background: #022648;
+  border: 2px solid #fff;
 }
 
 .button:hover {
@@ -867,7 +867,8 @@ ul.shortcode-list i {
 }
 
 .contain-to-grid {
-  background-color: #022648;
+  /*background-color: #022648;*/
+  background-color: #fff;
   -moz-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
@@ -922,15 +923,17 @@ ul.shortcode-list i {
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar {
-  background-color: #022648;
+  /*background-color: #022648;*/
+  background: #fff;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
 .contain-to-grid .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: #022648;
-  color: #F2E5D2;
+  /*background-color: #022648;*/
+  background: #fff;
+  color: #022648;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1241,7 +1244,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: #F9CE06;
+  background: #4A7DBE;
 }
 #footer input.email-address {
   padding: 5px 15px;
@@ -3086,7 +3089,7 @@ body.screenshot {
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: #333;
+  color: #F57363;
   border: 3px solid #eee;
   display: inline-block;
   padding: 30px;
@@ -3324,6 +3327,7 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
 }
 .modSectionHeader .special-title h2 {
+  color: #333;
   text-transform: uppercase;
   display: inline-block;
 }
