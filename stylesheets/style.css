@@ -683,6 +683,9 @@ h1, h2, h3, h4, h5, h6 {
 .centered-text {
   text-align: center;
 }
+.centered-text a {
+  border: solid 2px #022648;
+}
 
 hr {
   border-color: #eee;
@@ -838,12 +841,12 @@ ul.shortcode-list i {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #fff;
-  background: #022648;
+  background-color: rgba(2, 38, 72, 0.5);
   border: 2px solid #fff;
 }
 
 .button:hover {
-  background-color: #fb9083;
+  background: #022648;
 }
 
 .button.boxed {
@@ -872,6 +875,9 @@ ul.shortcode-list i {
   -moz-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+}
+.contain-to-grid .top-bar-section .dropdown li a{
+  background-color: red;
 }
 .contain-to-grid .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
   height: 60px;
@@ -904,10 +910,10 @@ ul.shortcode-list i {
   color: #fff;
 }
 .contain-to-grid.shadowless .top-bar-section ul li.has-dropdown .dropdown li {
-  background-color: rgba(0, 0, 0, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.8);*/
 }
 .contain-to-grid.shadowless .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
-  background: #000;
+  /*background: #000;*/
   color: #fff;
 }
 
@@ -3089,7 +3095,7 @@ body.screenshot {
   font-size: 3.42857rem;
   width: 3.42857rem;
   height: 3.42857rem;
-  color: #F57363;
+  color: rgba(2, 38, 72, 0.8);
   border: 3px solid #eee;
   display: inline-block;
   padding: 30px;
@@ -3106,7 +3112,7 @@ body.screenshot {
   margin: 0;
 }
 .modIconText .icon-text-circle:hover i {
-  color: #F57363;
+  border: 3px solid rgb(245,115,99,.08);
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
