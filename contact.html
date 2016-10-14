@@ -138,20 +138,44 @@
           <div class='medium-8 columns'>
             <div class='form'>
               <div class='row'>
-                <form id='contact_form' method='POST'>
+                <form action="https://formspree.io/gabrielbrickle@gmail.com"
+      method="POST">
+    <input type="text" name="name" placeholder="NAME">
+    <input type="email" name="_replyto" placeholder="EMAIL">
+    <input type="text" name="_subject" value="New submission!" placeholder="YOUR MESSAGE"/>
+    <!-- <input type="submit" value="Send"> -->
+    <input class='button boxed small' type='submit' value="Send">
+
+</form>
+                <!-- <form id='contact_form' method='POST'> -->
+                  <!-- <form action="https://formspree.io/gabrielbrickle@gmail.com"
+        method="POST" id="contact_form">
                   <div class='large-12 columns'>
                     <p id='thanks' style='display: none;'>
                       Thanks for contacting us, we'll be in touch soon!
                     </p>
                   </div>
+                  <form action="https://formspree.io/gabrielbrickle@gmail.com"
+        method="POST">
+      <input type="text" name="name">
+<input type="email" name="_replyto">
+<input type="submit" value="Send">
+<input class='button boxed small' type='submit' value="Send">
+
+  </form>
+
+
                   <div class='medium-12 columns'>
                     <input class='required' name='name' placeholder='NAME' type='text'>
-                    <input class='required email' name='email' placeholder='EMAIL' type='text'>
-                    <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-                    <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                    <input class='button white' type='submit'>
+                    <input class='required email' name='_replyto' placeholder='EMAIL' type='email'>
+                    <input class='required' name='_subject' placeholder='SUBJECT' type='text'>
+                    <!-- <textarea class='required' name='_format' placeholder='MESSAGE' value="plain"></textarea> -->
+                    <!-- <input type="hidden" name="_format" value="plain" placeholder="ge"/> -->
+                    <!-- <input class='button white' type='submit' value="Send"> -->
+                    <!-- <input type="submit" value="Send">
+
                   </div>
-                </form>
+                </form> -->
               </div>
             </div>
             <div class='two spacing'></div>
