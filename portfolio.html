@@ -149,8 +149,8 @@
                 <p>What will be the interest rate?
                     <br>
                     <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
-                <input type=button onClick="return myPayment()" value=Calculate>
-                <input type=button onClick="return myPaymentReset()" value=Reset>
+                <input class="button boxed small" type=button onClick="return myPayment()" value=Calculate>
+                <input class="button boxed small" type=button onClick="return myPaymentReset()" value=Reset>
             </form>
             <small>Instructions: Enter numbers and decimal points. No commas or other characters.</small>
             <p class="smpc-monthlypayment" id="monthlyPayment"> </p>
