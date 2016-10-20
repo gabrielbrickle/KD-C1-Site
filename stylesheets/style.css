@@ -4106,6 +4106,14 @@ font-family: Verdana, Arial, Helvetica, sans-serif;
 font-size: 10px;
 color:#ca0000;
 }
+@charset "UTF-8";
+.accordion-navigation > a:after {
+  content: "↡";
+  padding-left: 5px;
+  float: right;
+  font-size: 20px; }
+.accordion-navigation.active > a:after {
+  content: "↟"; }
 
 .smpc-monthlypayment {
 margin-top:15px;
@@ -4118,3 +4126,21 @@ display:none;
 }
 
 /* END - Simple Mortage Payment Calculator */
+
+
+.row {
+  margin-top: 5%;
+}
+.active-tb {
+  position: relative;
+  box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+  transform: scale(1);
+  border: 0;
+  transition: 0.4s ease;
+  z-index: 13; }
+  .active-tb:hover {
+    position: relative;
+    box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.5);
+    transform: scale(1.1);
+    border: 0;
+    z-index: 15; }
