@@ -137,7 +137,6 @@
 	cursor: default !important;
 }
 
-
 /* Icons
 ----------------------------------*/
 
@@ -784,7 +783,9 @@ ul.shortcode-list i {
 }
 
 .fadeinleft {
-  border-radius: 50%;
+  width: 75%;
+height: 500px;
+  border-radius: 5%;
   -moz-transform: translateX(-40px);
   -ms-transform: translateX(-40px);
   -webkit-transform: translateX(-40px);
@@ -809,6 +810,8 @@ ul.shortcode-list i {
 }
 
 .fadeinleft.appear, .fadeinright.appear {
+  width: 75%;
+height: 500px;
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -webkit-transform: translateX(0px);
@@ -1223,6 +1226,12 @@ form input.error, form textarea.error {
 }
 #footer ul a {
   color: #999;
+}
+#footer a {
+  color: #999;
+}
+#footer a:hover {
+  color: #eee;
 }
 #footer ul a:hover {
   color: #eee;
