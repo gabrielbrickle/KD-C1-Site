@@ -3084,6 +3084,7 @@ body.screenshot {
   color: #fff;
   margin-bottom: 10px;
 }
+
 .modGallery ul.gallery li a p {
   color: #fff;
   font-size: 0.875rem;
@@ -4237,3 +4238,16 @@ display:none;
 
 
 /*tabs*/
+.oneOfFour {
+  border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 5%;
+}
+.boxBorder:hover {
+  border: solid 5px red;
+}
+.modGallery ul.gallery li a:hover {
+transform: scale(1.05);
+color: #4A7DBE;
+}
