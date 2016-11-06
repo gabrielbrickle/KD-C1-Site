@@ -94,25 +94,25 @@
                                 <a href='mortgagecalculator.html'>Mortgage Calculator</a>
                             </li>
                             <li>
-                                <a href='portfolio-seperated.html'>Utilities</a>
+                                <a href='utilities.html'>Utilities</a>
                             </li>
                             <li>
-                                <a href='portfolio-fullwidth.html'>Schools</a>
+                                <a href='schools.html'>Schools</a>
                             </li>
                             <!-- <li>
                                 <a href='pricing.html'>Neighborhoods</a>
                             </li> -->
-                            <li>
-                                <a href='portfolio-fullwidth.html'>Flood Insurance</a>
-                            </li>
+                            <!-- <li>
+                                <a href='schools.html'>Flood Insurance</a>
+                            </li> -->
                         </ul>
                     </li>
                     <li>
                         <a href='charlestonneighborhoods.html'>Neighborhoods</a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="newhomebuyers.html">New Home Buyers</a>
-                    </li>
+                    </li> -->
                     <li class=''>
                         <a href='contact.html'>Contact</a>
                     </li>
@@ -155,25 +155,23 @@
             <div class='four spacing'></div>
         </div>
 
-        <div class="smpc-div">
-            <form name=mortgagecalc method=POST>
-                <p>How much will you be borrowing?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=loan size=10> <span class="smpc-error" id="loanError"></span></p>
-                <p>What will be the term of this mortgage (in years)?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=years size=5> <span class="smpc-error" id="yearsError"></span></p>
-                <p>What will be the interest rate?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
-                <input class="button boxed small" type=button onClick="return myPayment()" value=Calculate>
-                <input class="button boxed small" type=button onClick="return myPaymentReset()" value=Reset>
-            </form>
-            <small>Instructions: Enter numbers and decimal points. No commas or other characters.</small>
-            <p class="smpc-monthlypayment" id="monthlyPayment"> </p>
-            <p class="smpc-friendlyreminder" id="friendlyReminder">This is your principal + interest payment, or in other words, what you send to the bank each month. But remember, you will also have to budget for homeowners insurance, real estate taxes, and if you are unable to afford a 20% down payment,
-                Private Mortgage Insurance (PMI). These additional costs could increase your monthly outlay by as much 50%, sometimes more.</p>
-        </div>
+
+
+<!-- CODE FROM https://www.mortgagecalculator.biz/c/free.php -->
+<!-- <div class="Calculator">
+
+
+        <div style="width:430px; text-align:center;"><p style="text-align:center;"><a href="https://www.mortgagecalculator.biz/c/" target="_blank"></a><br/><iframe src="https://www.mortgagecalculator.biz/c/app.php" frameborder="0" width="430px" height="690px" scrolling="no"></iframe><br/>
+          <a href="https://www.mortgagecalculator.biz/c/free.php" target="_blank"><font size="1" color="#000000"></a></font></div>
+
+</div> -->
+<!--END CODE FROM https://www.mortgagecalculator.biz/c/free.php -->
+
+
+<div style="width: 100%; max-width: 960px;"><iframe id="calc-iframe" src="http://www.consumersolution.org/calculators/mortgage.aspx" width="100%" frameborder="0" scrolling="no"></iframe><script src="http://www.consumersolution.org/calculators/js/jquery.responsiveiframe.js"></script><script type="text/javascript"><!--//--><![CDATA[//><!--
+;(function($){$(function(){$('#calc-iframe').responsiveIframe({ xdomain: '*'});});})(jQuery);
+//--><!]]></script></div>
+
         <!-- <div class='full'>
             <div class='row'>
                 <div class='mod modGallery'>

@@ -80,7 +80,12 @@
 
 /* Layout helpers
 ----------------------------------*/
-
+/*.fourPageRow {
+  background-color: grey;
+}*/
+.blogImages {
+  margin-bottom: 15%;
+}
 .ui-helper-hidden {
 	display: none;
 }
@@ -664,7 +669,7 @@
 }
 /*some basic settings */
 a {
-  color: #F9CE06;
+  color: #F57363;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -webkit-transition-duration: 0.3s;
@@ -712,7 +717,7 @@ hr {
 }
 
 .full {
-  background: #f5f5f5;
+  background: #fff;
   padding: 80px 0 0;
   background-size: cover;
   background-position: 50% 50%;
@@ -1532,6 +1537,15 @@ body.screenshot {
   margin-bottom: 40px;
   background: #fff;
 }
+.modBlogPost p {
+  font-size: 1.15rem;
+}
+.links h3 {
+  color: #022648;
+}
+.links ul {
+  color: #F57363;
+}
 .modBlogPost .content {
   padding: 30px 20px;
 }
@@ -1581,6 +1595,9 @@ body.screenshot {
 }
 .modBlogPost.big .content {
   padding: 50px 40px;
+  background-color: #fff;
+  margin-top: -15%;
+
 }
 .modBlogPost.big .info {
   font-size: 0.78571rem;
@@ -1592,10 +1609,10 @@ body.screenshot {
   font-size: 2.5rem;
 }
 .modBlogPost.big h3 a {
-  color: #333;
+  color: #022648;
 }
 .modBlogPost.big h3 a:hover {
-  color: #f9ce06;
+  color: #4A7DBE;
 }
 .modBlogPost.big h4 {
   font-size: 1.7rem;
@@ -3017,10 +3034,10 @@ body.screenshot {
   color: #999;
 }
 .modGallery .gallery-nav li.current {
-  border: 1px solid #F9CE06;
+  border: 1px solid #F57363;
 }
 .modGallery .gallery-nav li.current a {
-  color: #F9CE06;
+  color: #F57363;
 }
 .modGallery ul.gallery img {
   width: 100%;
@@ -3061,6 +3078,7 @@ body.screenshot {
   top: 55%;
   position: relative;
   opacity: 0;
+  text-align: center;
 }
 .modGallery ul.gallery li a h3 {
   color: #fff;
@@ -3082,6 +3100,7 @@ body.screenshot {
   top: 50%;
   margin-top: -26px;
   opacity: 1;
+  text-align: center;
 }
 .modGallery ul.gallery li a:hover img {
   -moz-transform: scale(1.1);
@@ -3094,6 +3113,7 @@ body.screenshot {
 }
 .modGallery ul.gallery.seperated li {
   padding: 10px;
+  text-align: center;
 }
 .modIconText .icon-text-circle {
   text-align: center;
@@ -3202,6 +3222,7 @@ body {
   top: 55%;
   position: relative;
   opacity: 0;
+  text-align: center;
 }
 .modMasonryGallery ul.gallery li a h3 {
   color: #fff;
@@ -3227,6 +3248,7 @@ body {
   top: 50%;
   margin-top: -26px;
   opacity: 1;
+  text-align: center;
 }
 .modMasonryGallery ul.gallery li a:hover img {
   -moz-transform: scale(1.1);
@@ -3356,7 +3378,7 @@ body {
 }
 
 .modSectionHeader.big h2 {
-  font-size: 4rem;
+  font-size: 3em;
 }
 .modSectionHeader.big h3 {
   font-weight: normal;
@@ -3827,7 +3849,7 @@ body {
   padding: 0 60px;
 }
 .modTestimonials p.quote {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 30px;
 }
 .modTestimonials p.author {
@@ -4136,6 +4158,7 @@ display:none;
 
 /* END - Simple Mortage Payment Calculator */
 
+/*begin new home buyers*/
 
 .row {
   margin-top: 5%;
@@ -4153,3 +4176,64 @@ display:none;
     transform: scale(1.1);
     border: 0;
     z-index: 15; }
+    .profile-card {
+      padding: 1rem;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      margin: 2rem 0;
+      background-color: #fff; }
+      .profile-card img {
+        width: 75rem;
+        display: block;
+        margin: 2rem auto;
+        text-align: center;
+        /*border-radius: 50%;*/
+        box-shadow: 2px 2px 5px #888888; }
+      .profile-card .profile-info {
+        padding: 1rem; }
+        .profile-card .profile-info h4 {
+          margin-top: 0;
+          text-align: center;
+          text-transform: uppercase; }
+        .profile-card .profile-info p {
+          text-align: center; }
+        .profile-card .profile-info .inline-list {
+          text-align: center;
+          margin-bottom: 1rem; }
+          .profile-card .profile-info .inline-list li {
+            float: none;
+            display: inline-block; }
+          .profile-card .profile-info .inline-list i.fi-social-facebook {
+            font-size: 1.5rem;
+            color: #3b5998; }
+            .profile-card .profile-info .inline-list i.fi-social-facebook:hover {
+              transform: scale(1.5);
+              transition: all .5s ease-in-out; }
+          .profile-card .profile-info .inline-list i.fi-social-twitter {
+            font-size: 1.5rem;
+            color: #55acee; }
+            .profile-card .profile-info .inline-list i.fi-social-twitter:hover {
+              transform: scale(1.5);
+              transition: all .5s ease-in-out; }
+          .profile-card .profile-info .inline-list i.fi-social-linkedin {
+            font-size: 1.5rem;
+            color: #0077b5; }
+            .profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
+              transform: scale(1.5);
+              transition: all .5s ease-in-out; }
+          .profile-card .profile-info .inline-list i.fi-social-github {
+            font-size: 1.5rem;
+            color: #333; }
+            .profile-card .profile-info .inline-list i.fi-social-github:hover {
+              transform: scale(1.5);
+              transition: all .5s ease-in-out; }
+          .profile-card .profile-info .inline-list i.fi-social-youtube {
+            font-size: 1.5rem;
+            color: #cc181e; }
+            .profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+              transform: scale(1.5);
+              transition: all .5s ease-in-out; }
+
+/*end new home buyers*/
+
+
+/*tabs*/
