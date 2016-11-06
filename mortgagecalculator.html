@@ -167,14 +167,42 @@
 </div> -->
 
 
-        <div style="width:688px;height:752px;background-color: #ccc;font: normal normal normal 8pt verdana,arial,sans-serif;line-height: 13px;margin: 0 auto;padding: 0;overflow: hidden;text-align: center;border-radius: 5px">
-            <div style="height:25px;overflow:hidden;">
-                <h5 style="margin:6px 5px 7px;font-size:11px;;display: block;text-align: center;font-weight: bold;">Monthly Payment Calculator</h5></div>
-            <iframe scrolling="no" src="http://www.zillow.com/mortgage/MortgageCalculatorWidgetLarge.htm?" width="688px" frameborder="0" height="700px"></iframe>
-            <div style="height:25px;border:1px solid;border:0px none;border-top: 0px none;text-align:center;overflow:hidden;">
-                <div style="margin:6px 5px 7px;"><a href="http://www.zillow.com/mortgage-calculator/" target="_blank" rel="nofollow" style="font-size:11px;font-weight:normal;text-decoration:none;" title="Mortgage calculator on Zillow">Powered by Zillow</a></div>
-            </div>
+        <div class="smpc-div">
+            <form name=mortgagecalc method=POST>
+                <p>How much will you be borrowing?
+                    <br>
+                    <input type=text onkeypress="return validNumber(event)" name=loan size=10> <span class="smpc-error" id="loanError"></span></p>
+                <p>What will be the term of this mortgage (in years)?
+                    <br>
+                    <input type=text onkeypress="return validNumber(event)" name=years size=5> <span class="smpc-error" id="yearsError"></span></p>
+                <p>What will be the interest rate?
+                    <br>
+                    <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
+                <input type=button onClick="return myPayment()" value=Calculate>
+                <input type=button onClick="return myPaymentReset()" value=Reset>
+            </form>
+            <small>Instructions: Enter numbers and decimal points. No commas or other characters.</small>
+            <p class="smpc-monthlypayment" id="monthlyPayment"> </p>
+            <p class="smpc-friendlyreminder" id="friendlyReminder">This is your principal + interest payment, or in other words, what you send to the bank each month. But remember, you will also have to budget for homeowners insurance, real estate taxes, and if you are unable to afford a 20% down payment,
+                Private Mortgage Insurance (PMI). These additional costs could increase your monthly outlay by as much 50%, sometimes more.</p>
         </div>
+
+
+
+
+        <!--  calculator powered by PitiCalc.com -->
+        <div style="width: 160px; padding: 4px; border: 1px gray solid; background-color: #D3D3D3; color:#404040;  margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:11px;">
+            <div style="text-align:center; padding: 2px; font-size:14px;"> <img src="http://www.piticalc.com/w/4/calc.gif" alt="Calculator"> Mortgage Calculator</div>
+            <div style="padding:0px; width:auto; height:442px; border: 1px silver solid; background-color: #FFFFFF; color:gray;  font-size:11px; ">
+                <iframe title="Mortgage Calculator" frameborder="0" height="440" width="148" marginwidth="0" style="float:left; position:absolute; vertical-align:top;" scrolling="no" src="http://www.piticalc.com/w/4/calc-4.php" target="_blank"> Your browser doesn't support frames. Visit <a href="http://www.piticalc.com/" target="_blank" style="text-decoration:none; font-size:9pt; font-weight:bold;">Piti Calculator</a> to see this content.</iframe>
+            </div>
+            <div style="line-height:1em; font-size: 9px; color:#333333; padding: 3px; text-align:center;">* <a style="text-decoration:none;color:#333333;" href="http://www.piticalc.com">Taxes, Insurance & PMI</a> incl. in home mortgage calculator</div>
+        </div>
+
+
+
+        <IFRAME src="http://www.mymortgagecalculator.org/real-estate-tools" width="300" height="650" frameborder="0" scrolling="no"></IFRAME><p><a href="http://www.mymortgagecalculator.org" target="_blank" style="font-size:0.80em">Free Mortgage Calculator</a></p>
+
 
         <!-- <div class='full'>
             <div class='row'>
