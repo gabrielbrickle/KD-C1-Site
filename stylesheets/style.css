@@ -788,9 +788,9 @@ ul.shortcode-list i {
 }
 
 .fadeinleft {
-  width: 75%;
-height: 500px;
-  border-radius: 5%;
+  width: 90%;
+  height: 400px;
+  border-radius: 50%;
   -moz-transform: translateX(-40px);
   -ms-transform: translateX(-40px);
   -webkit-transform: translateX(-40px);
@@ -813,10 +813,22 @@ height: 500px;
   -webkit-transition: all 0.8s linear;
   transition: all 0.8s linear;
 }
-
+.carolinaOne {
+  position: relative;
+/* padding-left: 15%; */
+/* padding-right: 15%; */
+/* float: left; */
+/* text-align: center; */
+width: 100%;
+}
+.carolinaOne h3 {
+  text-align: center;
+  font-size: 24px;
+}
 .fadeinleft.appear, .fadeinright.appear {
-  width: 75%;
-height: 500px;
+  width: 90%;
+  height: 400px;
+  border-radius: 50%;
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -webkit-transform: translateX(0px);
@@ -4251,32 +4263,3 @@ display:none;
 transform: scale(1.05);
 color: #4A7DBE;
 }
-
-
-
-
-/* START - Simple Mortage Payment Calculator */
-
-.smpc-div {
-background-color: #f9f9f9;
-border:1px solid #cccccc;
-padding:15px;
-}
-
-.smpc-error {
-font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 10px;
-color:#ca0000;
-}
-
-.smpc-monthlypayment {
-margin-top:15px;
-font-size:24px;
-color:#ca0000;
-}
-
-.smpc-friendlyreminder {
-display:none;
-}
-
-/* END - Simple Mortage Payment Calculator */
