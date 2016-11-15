@@ -1631,6 +1631,8 @@ body.screenshot {
 }
 .modBlogPost.big h5 {
   font-size: 1.15rem;
+  margin-bottom: -10px;
+
 }
 .modBlogPost.big a:hover img {
   opacity: 1;
