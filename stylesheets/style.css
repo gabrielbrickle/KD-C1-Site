@@ -1,3 +1,23 @@
+p {
+  color: #5a5858 !important;
+}
+.links a {
+  color: #5a5858 !important;
+}
+.links a:hover {
+  opacity: .6 !important;
+}
+.fa {
+  color: #F57363 !important;
+}
+#footer ul a {
+  color: #fff !important;
+}
+#footer p {
+  color: #fff !important;
+}
+
+
 /*-----------------------------------
 [Table of Contents]
 
@@ -688,6 +708,8 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .centered-text a {
+  background: transparent;
+    color: #022648;
   border: solid 2px #022648;
 }
 
@@ -788,8 +810,8 @@ ul.shortcode-list i {
 }
 
 .fadeinleft {
-  width: 75%;
-  height: 400px;
+  width: 68%;
+  height: 385px;
   border-radius: 50%;
   -moz-transform: translateX(-40px);
   -ms-transform: translateX(-40px);
@@ -826,8 +848,8 @@ width: 100%;
   font-size: 24px;
 }
 .fadeinleft.appear, .fadeinright.appear {
-  width: 75%;
-  height: 400px;
+  width: 68%;
+  height: 385px;
   border-radius: 50%;
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
@@ -865,18 +887,25 @@ width: 100%;
   border: 2px solid #fff;
 }
 
+.rateButton {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: transparent;
+    color: #022648;
+  border: solid 2px #022648;
+}
+
 .button:hover {
   background: #022648;
 }
 
 .button.boxed {
-  color: #F2E5D2;
-  border: 2px solid #F2E5D2;
+  border: 2px solid ;
   background: #F57363;
 }
 
 .button.boxed:hover {
-  color: #F2E5D2;
+  /*color: #F2E5D2;*/
   background: #fb9083;
 }
 
@@ -1226,13 +1255,13 @@ form input.error, form textarea.error {
 /*Footer */
 #footer {
   background: #022648;
-  color: #F2E5D2;
+  /*color: #F2E5D2;*/
 }
 #footer h1 {
   margin-bottom: 25px;
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-  color: #F2E5D2;
+  color: #fff;
 }
 #footer ul {
   margin: 0;
@@ -1245,10 +1274,10 @@ form input.error, form textarea.error {
   color: #999;
 }
 #footer a {
-  color: #999;
+  color: #fff;
 }
 #footer a:hover {
-  color: #eee;
+  opacity: .6;
 }
 #footer ul a:hover {
   color: #eee;
@@ -1265,7 +1294,7 @@ form input.error, form textarea.error {
   -webkit-border-radius: 20px;
   border-radius: 20px;
   /*background: #4A7DBE;*/
-  border: solid 1px #F2E5D2;
+  border: solid 1px ;
   color: #F2E5D2;
   text-align: center;
   font-size: 1.25rem;
@@ -1276,12 +1305,11 @@ form input.error, form textarea.error {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  background: #4A7DBE;
+  background: #fff;
 }
 #footer input.email-address {
   padding: 5px 15px;
   height: 3.3rem;
-  background: #eee;
 }
 
 #footer.fullwidth p.copyright {
@@ -1562,10 +1590,10 @@ body.screenshot {
   padding: 30px 20px;
 }
 .modBlogPost h4 a {
-  color: #333;
+  color: #022648;
 }
 .modBlogPost h4 a:hover {
-  color: #f9ce06;
+  color: #4A7DBE;
 }
 .modBlogPost .date {
   font-size: 0.78571rem;
@@ -1579,7 +1607,7 @@ body.screenshot {
 }
 .modBlogPost .tags a {
   font-style: italic;
-  color: #4A7DBE;
+  color: #F0745F;
 }
 .modBlogPost img {
   width: 100%;
