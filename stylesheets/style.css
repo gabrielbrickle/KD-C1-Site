@@ -1025,7 +1025,7 @@ width: 100%;
   transition-duration: 0.2s;
 }
 .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-  width: 100%;
+  /*width: 100%;
   -moz-transition-property: all;
   -o-transition-property: all;
   -webkit-transition-property: all;
@@ -1033,11 +1033,11 @@ width: 100%;
   -moz-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
   -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+  transition-duration: 0.2s;*/
 }
 
 .f-topbar-fixed.shrink .contain-to-grid {
-  height: 60px;
+  height: 80px;
 }
 .f-topbar-fixed.shrink .top-bar {
   height: 60px;
@@ -1050,14 +1050,7 @@ width: 100%;
 .f-topbar-fixed.shrink .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
   height: 60px;
   line-height: 60px;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -moz-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
-  -webkit-transition-duration: 0.2s;
-  transition-duration: 0.2s;
+
 }
 .f-topbar-fixed.shrink .top-bar .top-bar-section .has-dropdown > a:after {
   top: 2.14286rem;
@@ -1071,7 +1064,7 @@ width: 100%;
   line-height: 60px;
 }
 .f-topbar-fixed.shrink .top-bar .title-area img, .f-topbar-fixed.shrink .top-bar .title-area li img, .f-topbar-fixed.shrink .top-bar .title-area a img {
-  width: 70%;
+  /*width: 70%;*/
 }
 
 .contain-to-grid.fullwidth .top-bar {
@@ -1705,7 +1698,7 @@ body.screenshot {
 
 .modBlogPost.masonry {
   width: 343px;
-  height: auto;
+  height: 768px;
   overflow: hidden;
 }
 
@@ -3763,7 +3756,7 @@ body {
 }
 .slick-slide img {
   display: block;
-      height: 350px;
+      height: 300px;
 }
 .slick-slide.slick-loading img {
   display: none;
