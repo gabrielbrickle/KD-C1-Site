@@ -1698,7 +1698,7 @@ body.screenshot {
 
 .modBlogPost.masonry {
   width: 343px;
-  height: 768px;
+  /*height: 850px;*/
   overflow: hidden;
 }
 
