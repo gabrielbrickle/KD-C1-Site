@@ -166,49 +166,80 @@
             </div>
             <div class='four spacing'></div>
         </div>
-        <div id="mortgage-calculator" style="text-align:center; width:235px;height:235px; padding:5px;">
-            <a target="_blank" style="text-decoration:none;font:bold 14px Arial, Helvetica, sans-serif;" href="http://www.frograte.com/mortgage-calculator/">Mortgage Calculator</a><br />
-            <iframe src="http://www.frograte.com/calculator.asp?t=1" height="200" width="235" frameborder="0" allowtransparency="true"></iframe></div>
+
         <!-- <div style="width:430px; text-align:center;"><p style="text-align:center;"><a href="https://www.mortgagecalculator.biz/c/" target="_blank"><img src="https://www.mortgagecalculator.biz/img/logo.png" border="0" alt="monthly mortgage calculator"/></a><br/><iframe src="https://www.mortgagecalculator.biz/c/app.php" frameborder="0" width="430px" height="690px" scrolling="no"></iframe><br/><a href="https://www.mortgagecalculator.biz/c/free.php" target="_blank"><font size="1" color="#000000">Free Home Loan Calculator</a></font></div> -->
 
         <!--[if lte IE 8]><style>.HOMES-mortgage-calculator-widget h1,.HOMES-mortgage-calculator-widget a{font-family:"Open Sans Bold", Arial, sans-serif;}</style><![endif]-->
 
 
         <!-- CODE FROM https://www.mortgagecalculator.biz/c/free.php -->
-        <!-- <div class="Calculator">
-
-
-        <div style="width:430px; text-align:center;"><p style="text-align:center;"><a href="https://www.mortgagecalculator.biz/c/" target="_blank"></a><br/><iframe src="https://www.mortgagecalculator.biz/c/app.php" frameborder="0" width="430px" height="690px" scrolling="no"></iframe><br/>
-          <a href="https://www.mortgagecalculator.biz/c/free.php" target="_blank"><font size="1" color="#000000"></a></font></div>
-
-</div> -->
-
-
-        <div class="smpc-div">
-            <form name=mortgagecalc method=POST>
-                <p>How much will you be borrowing?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=loan size=10> <span class="smpc-error" id="loanError"></span></p>
-                <p>What will be the term of this mortgage (in years)?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=years size=5> <span class="smpc-error" id="yearsError"></span></p>
-                <p>What will be the interest rate?
-                    <br>
-                    <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
-                <input type=button onClick="return myPayment()" value=Calculate class="button boxed small">
-                <input type=button onClick="return myPaymentReset()" value=Reset class="button boxed small">
-            </form>
-            <small>Instructions: Enter numbers and decimal points. No commas or other characters.</small>
-            <p class="smpc-monthlypayment" id="monthlyPayment"> </p>
-            <p class="smpc-friendlyreminder" id="friendlyReminder">This is your principal + interest payment, or in other words, what you send to the bank each month. But remember, you will also have to budget for homeowners insurance, real estate taxes, and if you are unable to afford a 20% down payment,
-                Private Mortgage Insurance (PMI). These additional costs could increase your monthly outlay by as much 50%, sometimes more.</p>
+        <div align="center">
+            <p>
+                <a href="http://www.mortgagecalculator.org" target="_blank"><img src="http://www.mortgagecalculator.org/images/mortgage-calculator-logo2.png" alt="MortgageCalculator.org" height="19" width="200" border="0"></a><br />
+                <iframe src="http://www.mortgagecalculator.org/free-tools/calculator/" frameborder="0" width="260px" height="270" scrolling="no"></iframe><br />
+                <a href="http://www.mortgagecalculator.org/free-tools/" target="_blank" style="text-decoration:none">
+                    <font size="1" color="#000000" rel="nofollow">Free Mortgage Calculators</font>
+                </a>
+            </p>
         </div>
 
+        <!-- MORTGAGE LOAN CALCULATOR BEGIN -->
+        <script type="text/javascript">
+            mlcalc_default_calculator = 'loan';
+            mlcalc_currency_code = 'usd';
+            mlcalc_amortization = 'year_nc';
+            mlcalc_purchase_price = '300,000';
+            mlcalc_down_payment = 'null';
+            mlcalc_mortgage_term = '30';
+            mlcalc_interest_rate = '4.5';
+            mlcalc_property_tax = 'null';
+            mlcalc_property_insurance = 'null';
+            mlcalc_pmi = 'null';
+            mlcalc_loan_amount = '250,000';
+            mlcalc_loan_term = '15';
+        </script>
+        <script type="text/javascript">
+            if (typeof jQuery == "undefined") {
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == 'https:' ? 'https:' : 'http:') + "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+                mlcalc_jquery_noconflict = 1;
+            };
+        </script>
+        <div style="font-weight:normal;font-size:9px;font-family:Tahoma;padding:0;margin:0;border:0;text-align:center;background:transparent;color:#EEEEEE;width:150px;" class="mlcalc_d3d3LmFtb3J0aXphdGlvbi1jYWxjLmNvbQ== mlcalc_ua_VUEtODE4MzUxOC0x"
+            id="mlcalcWidgetHolder">
+            <script type="text/javascript">
+                document.write(unescape("%3Cscript src='" + (document.location.protocol == 'https:' ? 'https://ssl.mlcalc.com' : 'http://cdn.mlcalc.com') + "/widget-narrow.js' type='text/javascript'%3E%3C/script%3E"));
+            </script><a href="http://www.amortization-calc.com/" style="font-weight:normal;font-size:9px;font-family:Tahoma;color:#EEEEEE;text-decoration:none;" class="panelItem">Amortization</a>
+            <a href="http://www.mlcalc.com//" style="font-weight:normal;font-size:9px;font-family:Tahoma;color:#EEEEEE;text-decoration:none;"
+                class="panelItem secondaryLink">Home Loan Calculator</a>
+    </div>
+    <!-- MORTGAGE LOAN CALCULATOR END -->
+
+
+    <div class="smpc-div">
+        <form name=mortgagecalc method=POST>
+            <p>How much will you be borrowing?
+                <br>
+                <input type=text onkeypress="return validNumber(event)" name=loan size=10> <span class="smpc-error" id="loanError"></span></p>
+            <p>What will be the term of this mortgage (in years)?
+                <br>
+                <input type=text onkeypress="return validNumber(event)" name=years size=5> <span class="smpc-error" id="yearsError"></span></p>
+            <p>What will be the interest rate?
+                <br>
+                <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
+            <input type=button onClick="return myPayment()" value=Calculate class="button boxed small">
+            <input type=button onClick="return myPaymentReset()" value=Reset class="button boxed small">
+        </form>
+        <small>Instructions: Enter numbers and decimal points. No commas or other characters.</small>
+        <p class="smpc-monthlypayment" id="monthlyPayment"> </p>
+        <p class="smpc-friendlyreminder" id="friendlyReminder">This is your principal + interest payment, or in other words, what you send to the bank each month. But remember, you will also have to budget for homeowners insurance, real estate taxes, and if you are unable to afford a 20% down payment, Private
+            Mortgage Insurance (PMI). These additional costs could increase your monthly outlay by as much 50%, sometimes more.</p>
+    </div>
 
 
 
 
-        <!-- <div class='full'>
+
+    <!-- <div class='full'>
             <div class='row'>
                 <div class='mod modGallery'>
                     <div class='gallery-nav'>
