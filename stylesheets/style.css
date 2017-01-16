@@ -77,6 +77,37 @@ p {
 
  ------------------------------------*/
 
+ .fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
 @charset "UTF-8";@font-face {
   font-family: "Steelfish";
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
@@ -824,6 +855,8 @@ ul.shortcode-list i {
   -o-transition: all 0.8s linear;
   -webkit-transition: all 0.8s linear;
   transition: all 0.8s linear;
+  /*margin-left: -54px;*/
+
 }
 
 .fadeinright {
@@ -850,14 +883,18 @@ width: 100%;
   font-size: 24px;
 }
 .fadeinleft.appear, .fadeinright.appear {
-  width: 68%;
-  height: 385px;
+  width: 168%;
+  height: 380px;
   border-radius: 50%;
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -webkit-transform: translateX(0px);
   transform: translateX(0px);
   opacity: 1;
+  /*margin-left: -54px;*/
+}
+.katsDescription {
+  margin-top: -7%;
 }
 
 .popin {
@@ -3992,7 +4029,7 @@ body {
     height: auto;
   }
   .contain-to-grid .title-area img, .contain-to-grid .title-area li img, .contain-to-grid .title-area a img {
-    width: auto;
+    /*width: auto;*/
   }
   .contain-to-grid .top-bar-section li:not(.has-form) a:not(.button) {
     height: 60px;
@@ -4090,7 +4127,7 @@ body {
     width: auto;
   }
   .f-topbar-fixed.shrink .top-bar .title-area a img {
-    width: auto;
+    /*width: auto;*/
   }
 }
 @media only screen and (max-width: 767px) {
