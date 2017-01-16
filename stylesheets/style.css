@@ -16,7 +16,9 @@ p {
 #footer p {
   color: #fff !important;
 }
-
+.hidden {
+  display: none;
+}
 
 /*-----------------------------------
 [Table of Contents]

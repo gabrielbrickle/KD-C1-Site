@@ -95,6 +95,8 @@ jQuery.extend({
   }
 });
 
+
+
 (function(removeClass) {
   jQuery.fn.removeClass = function(value) {
     if(value && typeof value.test === 'function') {
@@ -176,6 +178,8 @@ jQuery(document).foundation();
         return false;
       }
     });
+
+
 
     if($('.masonry-container').length > 0) {
 
