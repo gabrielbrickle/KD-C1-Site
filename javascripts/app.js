@@ -5,6 +5,8 @@ jQuery(document).ready(function() {
   });
 });
 
+
+
 // extend Tc.Module Class
 Tc.Module = Tc.Module.extend({
   onInitStyle: function(data) {
