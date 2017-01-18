@@ -5,7 +5,7 @@
   $name = $_POST['name'];
   $subject = $_POST['subject'];
 
-  $body = stripslashes($_POST['message'] . "\n\n sent from devoll html");
+  $body = stripslashes($_POST['message'] . "\n\n sent from Kat Drerup UnlockChucktown.com html");
 
   $from = $_POST['email'];
   $headers = "Reply-To: " . $from;
