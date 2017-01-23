@@ -4138,7 +4138,25 @@ body {
     /*width: auto;*/
   }
 }
+@media only screen and (max-width: 320px) {
+  .katSells {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .katSells {
+    display: none;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .katSells {
+    display: none;
+  }
+}
 @media only screen and (max-width: 767px) {
+  .katSells {
+    display: none;
+  }
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.85714rem;
     line-height: 3.85714rem;
@@ -4176,6 +4194,9 @@ body {
   }
 }
 @media only screen and (max-width: 480px) {
+  .katSells {
+    display: none;
+  }
   .modDefaultSlider .sequence .title h2 {
     font-size: 3.14286rem;
     line-height: 3.14286rem;
