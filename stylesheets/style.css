@@ -4391,23 +4391,23 @@ color: #4A7DBE;
 
 /*/////overlay*/
 .front {
-  /* margin-left: 25%; */
+  margin-left: 25%;
   text-align: center;
   /* font-size: 45px; */
   /* color: #022648; */
   /* position: absolute; */
-  width: 100%;
+  width: 50%;
   /* height: 350px; */
   /* left: 350px; */
   /* top: 120px; */
-  background: rgba(2, 38, 72, 0.12);
-  font-size: 4em;
+  background: rgba(2, 38, 72, 0.45);
+  font-size: 2em;
   line-height: 5.14286rem;
   display: inline-block;
   color: #fff;
   text-shadow: 2px 2px 0px #000 !important;
   letter-spacing: 2px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   text-transform: uppercase;
   -webkit-animation: fadein 15s;
   -moz-animation: fadein 15s;
@@ -4416,6 +4416,9 @@ color: #4A7DBE;
   animation: fadein 15s;
   margin-right: 25%;
   margin-top: 10%;
+}
+.topButton {
+  margin-bottom: 50px;
 }
 
 @keyframes fadein {
