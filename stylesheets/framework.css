@@ -1456,7 +1456,7 @@ select {
   padding: 1rem 1.71429rem 1rem 1rem;
   font-size: 0.92857rem;
   transition: opacity 300ms ease-out;
-  background-color: #F9CE06;
+  background-color: transparent;
   border-color: #d6b105;
   color: #FFFFFF;
 }
@@ -1946,13 +1946,13 @@ select {
   font-size: 0.78571rem;
   line-height: 0.78571rem;
   text-transform: uppercase;
-  color: #F9CE06;
+  color: transparent;
 }
 .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
   text-decoration: underline;
 }
 .breadcrumbs > * a {
-  color: #F9CE06;
+  color: transparent;
 }
 .breadcrumbs > *.current {
   cursor: default;
@@ -2013,8 +2013,8 @@ button, .button {
   padding-bottom: 0.92857rem;
   padding-left: 1.71429rem;
   font-size: 1.14286rem;
-  background-color: #F9CE06;
-  border-color: #F9CE06;
+  background-color: transparent;
+  border-color: transparent;
   color: #FFFFFF;
   transition: background-color 300ms ease-out;
 }
@@ -2120,8 +2120,8 @@ button.round, .button.round {
   border-radius: 1000px;
 }
 button.disabled, button[disabled], .button.disabled, .button[disabled] {
-  background-color: #F9CE06;
-  border-color: #F9CE06;
+  background-color: transparent;
+  border-color: transparent;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -2134,7 +2134,7 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
   color: #FFFFFF;
 }
 button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-  background-color: #F9CE06;
+  background-color: transparent;
 }
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
   background-color: #e7e7e7;
@@ -3767,7 +3767,7 @@ label.error {
   color: #FFFFFF;
 }
 .icon-bar > a:hover {
-  background: #F9CE06;
+  background: transparent;
 }
 .icon-bar > a:hover label {
   color: #FFFFFF;
@@ -3776,7 +3776,7 @@ label.error {
   color: #FFFFFF;
 }
 .icon-bar > a.active {
-  background: #F9CE06;
+  background: transparent;
 }
 .icon-bar > a.active label {
   color: #FFFFFF;
@@ -4089,7 +4089,7 @@ kbd {
   margin-bottom: auto;
   padding: 0.28571rem 0.57143rem 0.28571rem;
   font-size: 0.78571rem;
-  background-color: #F9CE06;
+  background-color: transparent;
   color: #FFFFFF;
 }
 .label.radius {
@@ -4463,13 +4463,13 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
   background: transparent;
 }
 ul.pagination li.current a, ul.pagination li.current button {
-  background: #F9CE06;
+  background: transparent;
   color: #FFFFFF;
   font-weight: bold;
   cursor: default;
 }
 ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-  background: #F9CE06;
+  background: transparent;
 }
 ul.pagination li {
   float: left;
@@ -4537,7 +4537,7 @@ ul.pagination li {
   line-height: 1.4;
 }
 .panel.callout a:not(.button) {
-  color: #F9CE06;
+  color: transparent;
 }
 .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
   color: #d6b105;
@@ -4608,7 +4608,7 @@ ul.pagination li {
   margin-bottom: 0.71429rem;
 }
 .progress .meter {
-  background: #F9CE06;
+  background: transparent;
   height: 100%;
   display: block;
 }
@@ -4680,7 +4680,7 @@ ul.pagination li {
   border-radius: 3px;
 }
 .range-slider.radius .range-slider-handle {
-  background: #F9CE06;
+  background: transparent;
   border-radius: 3px;
 }
 .range-slider.radius .range-slider-handle:hover {
@@ -4691,7 +4691,7 @@ ul.pagination li {
   border-radius: 1000px;
 }
 .range-slider.round .range-slider-handle {
-  background: #F9CE06;
+  background: transparent;
   border-radius: 1000px;
 }
 .range-slider.round .range-slider-handle:hover {
@@ -4703,7 +4703,7 @@ ul.pagination li {
   opacity: 0.7;
 }
 .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-  background: #F9CE06;
+  background: transparent;
   cursor: default;
   opacity: 0.7;
 }
@@ -4729,7 +4729,7 @@ ul.pagination li {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #F9CE06;
+  background: transparent;
 }
 .range-slider-handle:hover {
   background: #dbb505;
@@ -4914,7 +4914,7 @@ dialog[open] {
 }
 .side-nav li a:not(.button) {
   display: block;
-  color: #F9CE06;
+  color: transparent;
   margin: 0;
   padding: 0.5rem 1rem;
 }
@@ -4935,7 +4935,7 @@ dialog[open] {
   border-top-color: white;
 }
 .side-nav li.heading {
-  color: #F9CE06;
+  color: transparent;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -5087,7 +5087,7 @@ dialog[open] {
 .sub-nav li.active a {
   border-radius: 3px;
   font-weight: normal;
-  background: #F9CE06;
+  background: transparent;
   padding: 0.21429rem 1.14286rem;
   cursor: default;
   color: #FFFFFF;
@@ -5149,7 +5149,7 @@ dialog[open] {
   transform: translate3d(0, 0, 0);
 }
 .switch input:checked + label {
-  background: #F9CE06;
+  background: transparent;
 }
 .switch input:checked + label:after {
   left: 2.25rem;
@@ -5173,7 +5173,7 @@ dialog[open] {
   background: #FFFFFF;
 }
 .switch input:checked + label {
-  background: #F9CE06;
+  background: transparent;
 }
 .switch.large label {
   width: 5rem;
@@ -5405,7 +5405,7 @@ table tr td {
 }
 .has-tip:hover, .has-tip:focus {
   border-bottom: dotted 1px #705d03;
-  color: #F9CE06;
+  color: transparent;
 }
 .has-tip.tip-left, .has-tip.tip-right {
   float: none !important;
@@ -5450,7 +5450,7 @@ table tr td {
   left: 2rem;
 }
 .tooltip.opened {
-  color: #F9CE06 !important;
+  color: transparent !important;
   border-bottom: dotted 1px #705d03 !important;
 }
 
@@ -5678,8 +5678,8 @@ meta.foundation-mq-topbar {
   font-size: 1rem;
   padding-right: 1.42857rem;
   padding-left: 1.42857rem;
-  background-color: #F9CE06;
-  border-color: #F9CE06;
+  background-color: transparent;
+  border-color: transparent;
   color: #FFFFFF;
 }
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
@@ -5736,8 +5736,8 @@ meta.foundation-mq-topbar {
   font-size: 1rem;
   padding-right: 1.42857rem;
   padding-left: 1.42857rem;
-  background-color: #F9CE06;
-  border-color: #F9CE06;
+  background-color: transparent;
+  border-color: transparent;
   color: #FFFFFF;
 }
 .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
@@ -6321,7 +6321,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #F9CE06;
+  color: transparent;
   text-decoration: none;
   line-height: inherit;
 }
