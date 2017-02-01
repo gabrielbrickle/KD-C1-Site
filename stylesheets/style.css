@@ -943,7 +943,7 @@ a:before {
   background: transparent !important;
 }
 a:focus {
-  background: transparent !important;
+  background: #022648 !important;
 }
 
 .rateButton {

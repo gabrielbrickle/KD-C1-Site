@@ -181,34 +181,6 @@
 
 
 
-        <div style="width:185px; text-align:center;">
-            <p style="text-align:center;">
-                <a href="https://www.mortgagecalculator.biz/c/" target="_blank"><img src="https://www.mortgagecalculator.biz/img/mlogo.gif" border="0" alt="mortgage payment calculator with pmi" /></a><br/><iframe src="https://www.mortgagecalculator.biz/c/mini.php" frameborder="0" width="185px" height="240px" scrolling="no"></iframe><br/>
-                <a href="https://www.mortgagecalculator.biz/c/free.php" target="_blank">
-                    <font size="1" color="#000000">Free Home Loan Calculator</font>
-                </a>
-            </p>
-        </div>
-
-
-        <div style="width:192px; text-align:center;">
-            <p style="text-align:center;">
-                <a href="https://www.mortgagecalculator.biz/c/" target="_blank"><img src="https://www.mortgagecalculator.biz/img/mclogo.png" border="0" alt="mortgage calculator with PMI" /></a><br/><iframe src="https://www.mortgagecalculator.biz/c/narrow.php" frameborder="0" width="192px" height="670px" scrolling="no"></iframe><br/>
-                <a href="https://www.mortgagecalculator.biz/c/free.php" target="_blank">
-                    <font size="1" color="#000000">Mortgage Payment Calculator</font>
-                </a>
-        </div>
-
-        <div style="width:430px; text-align:center;">
-            <p style="text-align:center;">
-                <a href="https://www.mortgagecalculator.biz/c/" target="_blank"><img src="https://www.mortgagecalculator.biz/img/logo.png" border="0" alt="mortgage payment calculator" /></a><br/><iframe src="https://www.mortgagecalculator.biz/c/app.php" frameborder="0" width="430px" height="690px" scrolling="no"></iframe><br/>
-                <a
-                    href="https://www.mortgagecalculator.biz/c/free.php" target="_blank">
-                    <font size="1" color="#000000">HTML Mortgage Calculators</a>
-                </font>
-        </div>
-
-
 
 
         <!-- MORTGAGE LOAN CALCULATOR END -->
@@ -219,17 +191,16 @@
 
 
 
-<a id="file_attach" data-toggle="modal" href="http://fiddle.jshell.net/jhfrench/6K8rD/show/" class="btn">Modal 1</a>
 
         <div class="smpc-div">
             <form name=mortgagecalc method=POST>
-                <p>How much will you be borrowing?
+                <p>How much will you be borrowing? (loan amount)
                     <br>
                     <input type=text onkeypress="return validNumber(event)" name=loan size=10> <span class="smpc-error" id="loanError"></span></p>
                 <p>What will be the term of this mortgage (in years)?
                     <br>
                     <input type=text onkeypress="return validNumber(event)" name=years size=5> <span class="smpc-error" id="yearsError"></span></p>
-                <p>Annual Interest Rate
+                <p>What is the annual percentage rate? (percent)
                     <br>
                     <input type=text onkeypress="return validNumber(event)" name=rate size=5> <span class="smpc-error" id="rateError"></span></p>
                 <input type=button onClick="return myPayment()" value=Calculate class="button boxed small">
