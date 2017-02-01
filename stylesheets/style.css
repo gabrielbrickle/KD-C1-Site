@@ -4391,12 +4391,12 @@ color: #4A7DBE;
 
 /*/////overlay*/
 .front {
-  margin-left: 25%;
+  margin-left: 32%;
   text-align: center;
   /* font-size: 45px; */
   /* color: #022648; */
   /* position: absolute; */
-  width: 50%;
+  width: 33%;
   /* height: 350px; */
   /* left: 350px; */
   /* top: 120px; */
@@ -4414,7 +4414,7 @@ color: #4A7DBE;
   -ms-animation: fadein 15s;
   -o-animation: fadein 15s;
   animation: fadein 15s;
-  margin-right: 25%;
+  margin-right: 32%;
   margin-top: 10%;
 }
 .topButton {
