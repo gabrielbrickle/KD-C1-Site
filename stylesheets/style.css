@@ -2112,6 +2112,17 @@ body.screenshot {
 }
 .slick-slide img {
   display: block;
+height: 450px !important;
+padding: 0px !important;
+margin: 0px !important;
+margin-right: 0px !important;
+width: 100%;
+}
+.box .slick-slide {
+  width: auto !important;
+}
+.box {
+  padding: 0px !important;
 }
 .slick-slide.slick-loading img {
   display: none;
