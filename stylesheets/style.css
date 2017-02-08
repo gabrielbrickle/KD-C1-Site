@@ -190,9 +190,9 @@ select #calcLinks {
     margin-left: -35px;
 }
 
-.blogImages {
+/*.blogImages {
     margin-bottom: 15%;
-}
+}*/
 
 .ui-helper-hidden {
     display: none;
@@ -1574,6 +1574,12 @@ ul.shortcode-list i {
     transition: all 0.8s linear;
     /*margin-left: -54px;*/
 }
+.katsDescription .fadeinleft {
+  border-radius: none !important;
+}
+.katsDescription .fadeinleft.appear {
+  border-radius: none !important;
+}
 
 .fadeinright {
     -moz-transform: translateX(40px);
@@ -2574,7 +2580,6 @@ body.screenshot {
 .modBlogPost.big .content {
     padding: 50px 40px;
     background-color: #fff;
-    margin-top: -15%;
 }
 
 .modBlogPost.big .info {

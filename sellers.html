@@ -21,6 +21,13 @@
     <link href="stylesheets/fontello.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="javascripts/libs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        // Popup window code
+        function newPopup(url) {
+            popupWindow = window.open(
+                url, 'popUpWindow', 'height=600,width=1000,left=30,top=30,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+        }
+    </script>
     <script>
         // terrificjs bootstrap
         (function($) {
@@ -182,28 +189,15 @@
             <img src="images/katsells.jpg" alt="" style="width: 50%; margin-right:25%; margin-left:25%;">
         </div>
         <div class="container">
-          <div class="row sellersrow" style="margin-left: 10%;
+          <div class="row " style="margin-left: 10%;
     display: inline-flex;
     text-align: center;
-    margin-right: 10%;">
-            <div class="col-md-6 sellersinfo" style="margin-right: 5%;">
-              <i class='fa fa-home'></i>
-
-              <h4>SELL MY HOME</h4>
+    margin-right: 10%;
+    margin-bottom:5%;">
+            <div class="col-md-12" style="margin-right: 5%;">
+              <i class='fa fa-home' style="font-size: 50px;"></i>
               <p>You deserve much more than a sign in the yard, fliers on the counter and an occasional viewing. I work tirelessly to market your home with a tailored comprehensive marketing plan to fit your needs. With a degree in public
                   relations and extensive knowledge on social media, I utilize the latest cutting edge tools and personal touch to get your home sold.</p>
-            </div>
-            <div class="col-md-6 sellersinfo">
-              <i class='fa fa-compass'></i>
-
-              <h4>COMMUNICATION – A PROACTIVE APPROACH</h4>
-              <ul >
-                  <li style="font-size: 15px;">Maintain prompt communication throughout the sale</li>
-                  <li style="font-size: 15px;">Conduct comparable market analysis to properly price the house</li>
-                  <li style="font-size: 15px;">Recommend staging strategies</li>
-                  <li style="font-size: 15px;">Provide feedback from showing agents</li>
-                  <li style="font-size: 15px;">Coordinate showings with homeowners, tenants and other agentsShare updates on market and neighborhood activity</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -212,8 +206,21 @@
     display: inline-flex;
     text-align: center;
     margin-right: 10%;
-    margin-bottom:5%;">
-            <div class="col-md-6 sellersinfo" style="margin-right: 5%;">
+    margin-bottom:5%;
+        margin-top: -8%;">
+    <div class="col-md-4 sellersinfo" style="margin-right: 5%;">
+      <i class='fa fa-compass'></i>
+
+      <h4>COMMUNICATION – A PROACTIVE APPROACH</h4>
+      <ul >
+          <li style="font-size: 15px;">Maintain prompt communication throughout the sale</li>
+          <li style="font-size: 15px;">Conduct comparable market analysis to properly price the house</li>
+          <li style="font-size: 15px;">Recommend staging strategies</li>
+          <li style="font-size: 15px;">Provide feedback from showing agents</li>
+          <li style="font-size: 15px;">Coordinate showings with homeowners, tenants and other agentsShare updates on market and neighborhood activity</li>
+      </ul>
+    </div>
+            <div class="col-md-4 sellersinfo" style="margin-right: 5%;">
               <i class='fa fa-star-half-empty'></i>
 
               <h4>COMPREHENSIVE MARKETING PLAN – MAXIMUM EXPOSURE & PROVEN RESULTS
@@ -238,7 +245,7 @@
                   </li>
               </ul>
             </div>
-            <div class="col-md-6 sellersinfo">
+            <div class="col-md-4 sellersinfo">
               <i class='fa fa-image'></i>
 
               <h4>Behind the Scenes – So You Don’t Have to Worry</h4>
@@ -408,8 +415,8 @@
                   <img width="200" height="70" src="images/Kat_Drerup_Logo_White_with_Gold_URL.png" />
                 </a>
               </h1>
-                    <p>Mt. Pleasant, Coleman Blvd Office
-                        <br> <a href="https://www.google.com/maps/place/195+W+Coleman+Blvd,+Mt+Pleasant,+SC+29464/data=!4m2!3m1!1s0x88fe708cdd32d3cf:0x1d6e4e7ab16a8d1d?sa=X&ved=0ahUKEwjIwbOmvYDQAhWJTCYKHZhhB0cQ8gEIHTAA">195 West Coleman Boulevard Mt. Pleasant, SC 29464-3495</a></p>
+
+                        <br> <a href="https://www.google.com/maps/place/195+W+Coleman+Blvd,+Mt+Pleasant,+SC+29464/data=!4m2!3m1!1s0x88fe708cdd32d3cf:0x1d6e4e7ab16a8d1d?sa=X&ved=0ahUKEwjIwbOmvYDQAhWJTCYKHZhhB0cQ8gEIHTAA">195 West Coleman Blvd <br> Mt. Pleasant, SC 29464-3495</a></p>
                     <div class='spacing'></div>
                     <ul class='socials'>
                         <li>
@@ -449,7 +456,7 @@
                             <li><a href="aboutkat.html">Kat Drerup</a></li>
                             <li><a href="JavaScript:newPopup('http://charlestonkat.com');">Search Homes</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                            <li><a href="mortgagecalculator.html">Mortgage Calculator</a></li>
+
                         </ul>
                     </div>
                     <div class='spacing'></div>
