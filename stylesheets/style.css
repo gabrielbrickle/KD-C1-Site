@@ -3,14 +3,15 @@ p {
 }
 
 .sellersinfo {
-padding: 5%;
-width: 50%;
+    padding: 5%;
+    width: 50%;
+}
 
-}
 .sellersinfo .fa {
-  font-size: 50px;
-padding: 5%;
+    font-size: 50px;
+    padding: 5%;
 }
+
 .links a {
     color: #5a5858 !important;
 }
@@ -22,16 +23,18 @@ padding: 5%;
 .fa {
     color: #e66e62 !important;
 }
+
 .searchHomesDiv {
-  text-align: center;
+    text-align: center;
 }
+
 .searchHomes {
     font-size: 1.7rem !important;
-      color: #e66e62 !important;
+    color: #e66e62 !important;
 }
-.rateButton {
-  font-weight: bold;
 
+.rateButton {
+    font-weight: bold;
 }
 
 #footer ul a {
@@ -189,6 +192,7 @@ select #calcLinks {
     padding-right: 0;
     margin-left: -35px;
 }
+
 
 /*.blogImages {
     margin-bottom: 15%;
@@ -1574,11 +1578,13 @@ ul.shortcode-list i {
     transition: all 0.8s linear;
     /*margin-left: -54px;*/
 }
+
 .katsDescription .fadeinleft {
-  border-radius: none !important;
+    border-radius: none !important;
 }
+
 .katsDescription .fadeinleft.appear {
-  border-radius: none !important;
+    border-radius: none !important;
 }
 
 .fadeinright {
@@ -2137,10 +2143,6 @@ form input.error, form textarea.error {
 #footer {
     background: #022648;
     /*color: #F2E5D2;*/
-}
-
-#footer h1 {
-    margin-bottom: 25px;
 }
 
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -2953,11 +2955,11 @@ body.screenshot {
 }
 
 .modCallToAction p {
-  font-size: 1.28571rem;
-  letter-spacing: 2px;
-  /* font-style: italic; */
-  /* padding-top: 10px; */
-  font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.28571rem;
+    letter-spacing: 2px;
+    /* font-style: italic; */
+    /* padding-top: 10px; */
+    font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
 
@@ -3993,6 +3995,10 @@ body.screenshot {
 .modFullscreenSlider .fullscreen_slideshow .sequence-next {
     right: 0;
 }
+.name a {background-color: #022648;}
+.name {
+  background-color: #022648;
+}
 
 .modFullscreenSlider .fullscreen_slideshow .sequence-next span {
     border-left-style: solid;
@@ -4590,6 +4596,9 @@ body {
 
 .modPriceBox .features li {
     padding: 5px 0;
+    text-align: left;
+    list-style: disc;
+    background-color: #fff;
 }
 
 .modPriceBox p.start {
@@ -5346,7 +5355,7 @@ body {
         width: 100% !important;
     }
     .sellersrow {
-      display: inline !important;
+        display: inline !important;
     }
 }
 
@@ -5368,6 +5377,7 @@ body {
         width: 100%;
         padding-right: auto;
     }
+
 }
 
 @media only screen and (max-width: 414px) {
@@ -5381,6 +5391,35 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+  .front {
+      margin-left: 20% !important;
+      text-align: center;
+      /* font-size: 45px; */
+      /* color: #022648; */
+      /* position: absolute; */
+      width: 56% !important;
+      /* height: 350px; */
+      /* left: 350px; */
+      /* top: 120px; */
+      background: rgba(2, 38, 72, 0.45);
+      font-size: 1.5em !important;
+      line-height: 2.6rem !important;
+      display: inline-block;
+      color: #fff;
+      text-shadow: 2px 2px 0px #000 !important;
+      letter-spacing: 2px;
+      /* margin-bottom: 40px; */
+      -webkit-animation: fadein 15s;
+      -moz-animation: fadein 15s;
+      -ms-animation: fadein 15s;
+      -o-animation: fadein 15s;
+      animation: fadein 15s;
+      margin-right: 18%;
+      margin-top: 42% !important;
+  }
+  .links {
+    margin-left: 0px !important;
+  }
     .katSells {
         display: none;
     }
@@ -5524,7 +5563,7 @@ body {
 /* END - Simple Mortage Payment Calculator */
 
 
-/*begin First Time Buyerss*/
+/*begin s*/
 
 .row {
     margin-top: 5%;
@@ -5546,15 +5585,17 @@ body {
     border: 0;
     z-index: 15;
 }
+
 .box {
-  animation: none;
-  /*width: 50%;*/
-text-align: center;
-background: #fff;
+    animation: none;
+    /*width: 50%;*/
+    text-align: center;
+    background: #fff;
 }
+
 .sellersinfo {
-  display: inline-block;
-  background: #f5f5f5;
+    display: inline-block;
+    background: #f5f5f5;
 }
 
 .profile-card {
@@ -5648,7 +5689,7 @@ background: #fff;
 }
 
 
-/*end First Time Buyerss*/
+/*end s*/
 
 
 /*tabs*/
@@ -5671,9 +5712,14 @@ background: #fff;
 
 
 /*/////overlay*/
-
+.animate-in {
+  text-align: center;
+}
+.frame {
+  text-align: center;
+}
 .front {
-    margin-left: 32%;
+    /*margin-left: 32%;*/
     text-align: center;
     /* font-size: 45px; */
     /* color: #022648; */
@@ -5696,7 +5742,7 @@ background: #fff;
     -ms-animation: fadein 15s;
     -o-animation: fadein 15s;
     animation: fadein 15s;
-    margin-right: 32%;
+    /*margin-right: 32%;*/
     margin-top: 10%;
 }
 
