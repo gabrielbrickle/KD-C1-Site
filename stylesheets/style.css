@@ -4528,7 +4528,7 @@ body {
 }
 
 .modPriceBox {
-    border: 1px solid #e0e0e0;
+    /*border: 2px solid #e0e0e0;*/
     padding: 0 15px 15px;
     margin: 0 0 60px;
     background-color: #fff;
@@ -4541,7 +4541,6 @@ body {
 }
 
 .modPriceBox .info {
-    border-top: 4px solid #bbb;
     padding: 20px 0 0;
 }
 
