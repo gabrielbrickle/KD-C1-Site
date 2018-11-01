@@ -6,7 +6,9 @@
 ul {
   list-style: none;
 }
-
+.carolinaonelogo {
+  width: 50% !important;
+}
 a {
   outline: none;
   color: #3366cc;

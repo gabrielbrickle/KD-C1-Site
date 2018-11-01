@@ -11,7 +11,9 @@ p {
     font-size: 50px;
     padding: 5%;
 }
-
+.carolinaonelogo img {
+  width: 50% !important;
+}
 .links a {
     color: #5a5858 !important;
 }
